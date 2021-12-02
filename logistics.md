@@ -12,8 +12,8 @@ Every two weeks, we meet physically and over Zoom to discuss causal texts drawn 
 
 ## Location
 
-Hybrid format at room XXX at LRI and zoom [recurring link](https://#).
+Hybrid format at room XXX at LRI and via Zoom.
 
 ## Mailing list
 
-You can subscribe [here](https://#) to our mailing or [here](https://#) to our newsletter.
+Please subscribe to our mailing list [here](https://forms.gle/s1543jWtvg4Yt5c68) for announcements and Zoom links.

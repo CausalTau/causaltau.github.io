@@ -20,7 +20,7 @@ order: 4
 
 ## Papers
 
-Bernhard Schölkopf, Dominik Janzing, Jonas Peters, Eleni Sgouritsa, Kun Zhang, and Joris Mooij. 2012. [On causal and anticausal learning](https://arxiv.org/pdf/1206.6471.pdf). In 29th International Conference on International Conference on Machine Learning. Omnipress, Madison, WI, USA, 459–466.
+* Bernhard Schölkopf, Dominik Janzing, Jonas Peters, Eleni Sgouritsa, Kun Zhang, and Joris Mooij. 2012. [On causal and anticausal learning](https://arxiv.org/pdf/1206.6471.pdf). In 29th International Conference on International Conference on Machine Learning. Omnipress, Madison, WI, USA, 459–466.
 * Goudet, Olivier, Diviyan Kalainathan, Philippe Caillou, Isabelle Guyon, David Lopez-Paz, and Michele Sebag. [Learning functional causal models with generative neural networks](https://arxiv.org/pdf/1709.05321.pdf). In Explainable and interpretable models in computer vision and machine learning, pp. 39-80. Springer, Cham, 2018.
 * Kalainathan, Diviyan, Olivier Goudet, Isabelle Guyon, David Lopez-Paz, and Michèle Sebag. [Structural agnostic modeling: Adversarial learning of causal graphs](https://arxiv.org/pdf/1803.04929). [arXiv:1803.04929](https://arxiv.org/pdf/1803.04929), 2018.
 * Kalainathan, Diviyan, and Olivier Goudet. [Causal discovery toolbox: Uncover causal relationships in python](https://arxiv.org/pdf/1903.02278). [arXiv:1903.02278](https://arxiv.org/pdf/1903.02278), 2019.
