@@ -18,6 +18,7 @@ We are academics and practitioners interested in **causal inference**. Whether y
 
 [sebag]:https://www.lri.fr/~sebag/
 [leite]:https://#
+[oppenheim]:https://
 [clausel]:https://sites.google.com/site/marianneclausel/
 [milijaona]:https://
 [dong]:https://#
