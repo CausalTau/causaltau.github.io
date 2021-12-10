@@ -12,8 +12,8 @@ Every two weeks, we meet physically and over Zoom to discuss causal texts drawn 
 
 ## Location
 
-Hybrid format at room XXX at LRI and via Zoom.
+Hybrid format at room 2014 and via Zoom.
 
 ## Mailing list
 
-Please subscribe to our mailing list [here](https://forms.gle/s1543jWtvg4Yt5c68) for announcements and Zoom links.
+Please subscribe to our mailing list [here](https://sympa.inria.fr/sympa/subscribe/causal-tau) for announcements and Zoom links.
