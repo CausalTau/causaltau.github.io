@@ -33,8 +33,9 @@ order: 4
 * Eckles, Dean, and Eytan Bakshy. [Bias and high-dimensional adjustment in observational studies of peer effects](https://arxiv.org/abs/1706.04692). arXiv preprint arXiv:1706.04692 (2017).
 * Olteanu, Alexandra, Onur Varol, and Emre Kiciman. [Distilling the outcomes of personal experiences: A propensity-scored analysis of social media](https://www.aolteanu.com/papers/cscw2017_outcome_extraction.pdf). ACM Conference on Computer Supported Cooperative Work and Social Computing. ACM, 2017.
 * Shalizi, Cosma Rohilla, and Andrew C. Thomas. [Homophily and contagion are genetically confounded in observational social network studies](https://arxiv.org/abs/1004.4704). Sociological methods & research 40.2 (2011): 211-239.
-* Sharma, Amit, Jake M. Hofman, and Duncan J. Watts. [Split-door criterion for causal identification: Automatic search for natural experiments](https://arxiv.org/abs/1611.09414). arXiv preprint arXiv:1611.09414 (2016).
+* Sharma, Amit, Jake M. Hofman, and Duncan J. Watts. [Split-door criterion for causal identification: Automatic search for natural experiments](https://arxiv.org/abs/1611.09414). arXiv:1611.09414 (2016).
 * Wager, Stefan, and Susan Athey. [Estimation and inference of heterogeneous treatment effects using random forests](https://arxiv.org/abs/1510.04342). Journal of the American Statistical Association (2017).
+* Louizos, Christos, Uri Shalit, Joris Mooij, David Sontag, Richard Zemel, and Max Welling. [Causal effect inference with deep latent-variable models.](https://arxiv.org/abs/1705.08821) 31st International Conference on Neural Information Processing Systems, pp. 6449-6459. 2017.
 
 ## Courses
 
