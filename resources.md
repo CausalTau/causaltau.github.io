@@ -36,6 +36,7 @@ order: 4
 * Sharma, Amit, Jake M. Hofman, and Duncan J. Watts. [Split-door criterion for causal identification: Automatic search for natural experiments](https://arxiv.org/abs/1611.09414). arXiv:1611.09414 (2016).
 * Wager, Stefan, and Susan Athey. [Estimation and inference of heterogeneous treatment effects using random forests](https://arxiv.org/abs/1510.04342). Journal of the American Statistical Association (2017).
 * Louizos, Christos, Uri Shalit, Joris Mooij, David Sontag, Richard Zemel, and Max Welling. [Causal effect inference with deep latent-variable models.](https://arxiv.org/abs/1705.08821) 31st International Conference on Neural Information Processing Systems, pp. 6449-6459. 2017.
+* Wang, Yixin, and David M. Blei. [Towards clarifying the theory of the deconfounder](https://arxiv.org/abs/2003.04948). arXiv:2003.04948 (2020).
 
 ## Courses
 
