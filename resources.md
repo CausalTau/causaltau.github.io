@@ -8,6 +8,8 @@ order: 4
 
 ## Books
 
+* Huntington-Klein, Nick. [The effect: An introduction to research design and causality](https://theeffectbook.net/index.html). Chapman and Hall/CRC, 2021.
+* Cunningham, Scott. [Causal Inference](https://mixtape.scunning.com/). The Mixtape, 2020.
 * Pearl, Judea, and Dana Mackenzie. [The Book of Why: The New Science of Cause and Effect](http://bayes.cs.ucla.edu/WHY/why-ch1.pdf). Basic Books, 2018.
 * Peters, Jonas, Dominik Janzing, and Bernhard Schölkopf. [Elements of causal inference: foundations and learning algorithms](http://web.math.ku.dk/~peters/elements.html). MIT press, 2017
 * Pearl, Judea. [Causal inference in statistics: An overview](http://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf). Statistics surveys 3 (2009): 96-146
