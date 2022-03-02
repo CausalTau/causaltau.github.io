@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resources
-order: 4
+order: 6
 ---
 
 <p class="message"> “Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.” — Albert Einstein</p>

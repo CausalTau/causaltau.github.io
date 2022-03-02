@@ -9,7 +9,7 @@ permalink:        pretty
 # Setup
 title:            Causal 𝛕
 tagline:          Causal Inference, Causality, Machine Learning
-description:      'A Discussion Group in Causal Inference'
+description:      'A Working Group in Causal Inference'
 url:              https://causaltau.github.io
 baseurl:          ''
 paginate:         20
@@ -26,11 +26,11 @@ plugins: 	  [jekyll-paginate]
 # Custom vars
 version:          1.0.0
 categorylist:     [causal inference, causality, causal networks, causal models, machine learning]
-collections:
-    notes:
-        collections_dir: notes
-        output: true
-        permalink: /notes/:name
+# collections:
+#     notes:
+#         collections_dir: notes
+#         output: true
+#         permalink: /notes/:name
 
 
 github: 
