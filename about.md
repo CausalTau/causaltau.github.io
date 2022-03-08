@@ -18,8 +18,7 @@ Every two weeks, we meet physically and over Webex to discuss causal inference w
 
 ## Location
 
- - Physically at LISN Campus Universitaire Bât. 660 Claude Shannon (Rue René Thom, 91190 
- Gif-sur-Yvette)
+ - Physically at LISN Campus Universitaire Bât. 660 Claude Shannon - Rue René Thom, 91190 Gif-sur-Yvette
  - Online via Webex
 
 ## Mailing list
@@ -28,9 +27,9 @@ Please subscribe to our mailing list [here](https://sympa.inria.fr/sympa/subscri
 
 ## Scientific Committee
 
+* [Marianne Clausel][clausel]
 * [Alessandro Leite][leite]
 * [Georges Oppenheim][oppenheim]
-* [Marianne Clausel][clausel]
 * [Michèle Sébag][sebag]
 
 
