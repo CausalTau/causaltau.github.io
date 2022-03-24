@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+X-WR-TIMEZONE:Europe/Paris
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+DTSTART:19810329T020000
+TZNAME:GMT+2
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+DTSTART:19961027T030000
+TZNAME:GMT+1
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20220324T165440Z
+UID:85E66194-28AC-49B9-B0DF-3EF5CBDBBDE9
+DTEND;TZID=Europe/Paris:20220310T100000
+TRANSP:OPAQUE
+SUMMARY:Causal Discovery Toolbox: Uncovering causal relationships in Pyt
+ hon
+DTSTAMP:20220324T165447Z
+DTSTART;TZID=Europe/Paris:20220310T090000
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Paris:20220407T120000
+UID:2E23E988-88B9-4051-8524-DE0AA7ADA376
+DTSTAMP:20220324T170557Z
+LOCATION:Room 2011 @ LISN Campus Universitaire Bât. 660 Claude Shannon -
+  Rue René Thom\, 91190 Gif-sur-Yvette
+DESCRIPTION:Speaker: Diviyan Kalainathan\nAbstract: The Causal Discovery
+  Toolbox (CDT) is a new open source Python framework for causal discover
+ y from observational data and domain background knowledge\, aimed at cau
+ sal graph and causal mechanism modeling. The CDT package implements an e
+ nd-to-end approach\, recovering the direct dependencies (the skeleton of
+  the causal graph) and the causal relationships between variables. It in
+ cludes algorithms from the 'Bnlearn' (Scutari\, 2018) and 'Pcalg' (Kalis
+ ch et al.\, 2018) packages\, together with algorithms for pairwise causa
+ l discovery such as ANM (Hoyer et al.\, 2009).\n\nLink to join\nhttps://
+ inria.webex.com/inria-en/j.php?MTID=m6744fb0489e22385e1538c4fef104f61\n\
+ nMeeting number (access code): 2740 064 0615 \nPassword: hVwCriMD967
+URL;VALUE=URI:https://causaltau.github.io/schedule/
+SEQUENCE:1
+SUMMARY:Causal Discovery Toolbox: Uncovering causal relationships in Pyt
+ hon
+DTSTART;TZID=Europe/Paris:20220407T103000
+END:VEVENT
+END:VCALENDAR

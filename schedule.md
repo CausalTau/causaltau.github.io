@@ -6,14 +6,18 @@ order: 3
 
 <!-- ## Upcoming Seminar Presentations -->
 
-* **Reading session on Thursday, March 10th, 2022** [[Link to join](https://inria.webex.com/inria-en/j.php?MTID=mb320972dbd4e85b9f0064945cd90ecd0)]
-  - **Speaker**: [Emilie Devijver](http://ama.liglab.fr/~devijver/) (CNRS researcher at Université Grenoble Alpes)
-  - **Title**: Causal Discovery in Observational Time Series
-  - **Abstract**: Time series arise as soon as observations, from sensors or experiments, for example, are collected over time. They are present in various forms in many different domains, as healthcare (through, e.g., monitoring systems), Industry 4.0 (through, e.g., predictive maintenance and industrial monitoring systems), surveillance systems (from images, acoustic signals, seismic waves, etc.) or energy management (through, e.g. energy consumption data). In this talk, we first introduce the main methods proposed recently, based on different approaches (Granger causality, constraint-based approaches, noise-based approaches). Then, we propose a new method, seen as a hybrid between the noise-based framework to find potential causes of each time series, and the well-known constraint-based framework to prune all unnecessary causes. By doing so, we rely on a lighter version of the faithfulness hypothesis, namely the adjacency hypothesis. Experiments conducted on both simulated and real-world time series illustrate all the presented approaches.
-  - **References**:
-    - Assaad, C. K., Devijver, E., and Gaussier, E. (2022). [Survey and evaluation of causal discovery methods for time series](https://www.jair.org/index.php/jair/article/view/13428). Journal of Artificial Intelligence Research, 73:767–819.
-    - K. Assaad, E. Devijver, É. Gaussier, and A. Aït-Bachir, [A mixed noise and constraint-based approach to causal inference in time series](https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_896.pdf), in Machine learning and knowledge discovery in databases. research track – European Conference, ECML PKDD 2021, Bilbao, Spain, September 13-17, 2021, proceedings, part I, 2021, p. 453–468.
-  - **Bio**: [Emilie Devijver](http://ama.liglab.fr/~devijver/) is a CNRS researcher at the Computer Science department of the Université Grenoble Alpes, in the AMA team. Prior to that, she completed postdoctoral studies at Katholieke Universiteit Leuven, Belgium, in 2017 under the supervision of Irène Gijbels. She received a PhD degree in mathematics from the Paris-Sud University in 2015 under the direction of ​​Pascal Massart and Jean-Michel Poggi. Her works mainly focus on the field of statistical learning, with a methodological, theoretical, and application viewpoint.
-  -  **Meeting number (access code)**: 2743 223 0109
-  - **Password**: B83msHZdar2
-  - **Reading sessions' format**: Reading sessions aim to enable everyone to discuss theorems, proofs, and experiments of the work that are usually quickly presented in a seminar session. It also represents an opportunity for attendees to have a deep view of the work, as well as a favorable time to ask more questions, discuss with the authors, and envision future works.
+* **Thursday, April 7th, 2022 at 10:30 AM UTC+1** [[Link to join](https://inria.webex.com/inria-en/j.php?MTID=m6744fb0489e22385e1538c4fef104f61)][[Add to Calendar](/files/CDT.ics)]
+  - **Title**: Causal Discovery Toolbox: Uncovering causal relationships in Python
+  - **Speaker**: [Diviyan Kalainathan](https://diviyan-kalainathan.github.io/)
+  - **Abstract**: The Causal Discovery Toolbox (CDT) is a new open source Python framework for causal discovery from observational data and domain background knowledge, aimed at causal graph and causal mechanism modeling. The CDT package implements an end-to-end approach, recovering the direct dependencies (the skeleton of the causal graph) and the causal relationships between variables. It includes algorithms from the 'Bnlearn' (Scutari, 2018) and 'Pcalg' (Kalisch et al., 2018) packages, together with algorithms for pairwise causal discovery such as ANM (Hoyer et al., 2009).
+  - **References**
+     *  Markus Kalisch, Alain Hauser, et al. Package ‘pcalg’. 2018. URL [cran.r-project.org/web/packages/pcalg/index.html](https://cran.r-project.org/web/packages/pcalg/index.html).
+    * Marco Scutari. Package ‘bnlearn’, 2018. URL [bnlearn.com](https://www.bnlearn.com).
+    * Patrik O. Hoyer, Dominik Janzing, Joris M. Mooij, Jonas Peters, and Bernhard Schölkopf. [Nonlinear causal discovery with additive noise models](https://papers.nips.cc/paper/2008/hash/f7664060cc52bc6f3d620bcedc94a4b6-Abstract.html). In Neural Information Processing Systems (NIPS), pages 689–696, 2009.
+    * Kalainathan, D., Goudet, O., & Dutta, R. (2020). [Causal Discovery Toolbox: Uncovering causal relationships in Python](https://jmlr.org/papers/v21/19-187.html). J. Mach. Learn. Res., 21, 37-1.
+ * **Bio**: [Diviyan Kalainathan](https://diviyan-kalainathan.github.io/) is a Data Scientist at FenTech. He received a PhD degree in Computer Science from the Université Paris-Saclay in 2019 under the direction of Isabelle Guyon, Michèle Sebag, and Philippe Caillou. His works mainly focus on causal discovery of observational data and neural networks for social sciences in the directed graph setting. His interests also include generative models and reinforcement learning.
+ * **Online**
+   - **Meeting number (access code)**: 2740 064 0615
+   - **Password**: hVwCriMD967
+* **Physically**
+  - Room 2011 @ LISN Campus Universitaire Bât. 660 Claude Shannon - Rue René Thom, 91190 Gif-sur-Yvette.
