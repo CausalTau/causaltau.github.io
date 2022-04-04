@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+X-WR-TIMEZONE:Europe/Paris
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+DTSTART:19810329T020000
+TZNAME:GMT+2
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+DTSTART:19961027T030000
+TZNAME:GMT+1
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Paris:20220407T120000
+UID:2E23E988-88B9-4051-8524-DE0AA7ADA376
+DTSTAMP:20220324T170557Z
+LOCATION:Online
+DESCRIPTION:Speaker: Diviyan Kalainathan\nAbstract: Causal discovery is 
+ of utmost importance for agents who must plan\, reason and decide based 
+ on observations\; where mistaking correlation with causation might lead 
+ to unwanted consequences. The gold standard to discover causal relations
+  is to perform experiments. However\, experiments are in many cases expe
+ nsive\, unethical\, or impossible to realize. In these situations\, ther
+ e is a need for observational causal discovery\, that is\, the estimatio
+ n of causal relations from observations alone.\nWe will go through the t
+ raditional methods to find causal relationships in observational data : 
+ conditional independence\, Occam's razor.\nCausal discovery in the obser
+ vational data setting traditionally involves making significant assumpti
+ ons on the data and on the underlying causal model. This work aims to al
+ leviate some of the assumptions made on the causal models by exploiting 
+ the modularity and expressiveness of neural networks for causal discover
+ y\, leveraging both conditional independencies and simplicity of the cau
+ sal mechanisms.\n\nLink to join\nhttps://inria.webex.com/inria-en/j.php?
+ MTID=m6744fb0489e22385e1538c4fef104f61\n\nMeeting number (access code): 
+ 2740 064 0615 \nPassword: hVwCriMD967
+URL;VALUE=URI:https://causaltau.github.io/schedule/
+SEQUENCE:1
+SUMMARY:Generative Neural Networks for Observational Causal Discovery
+LAST-MODIFIED:20220404T102401Z
+DTSTART;TZID=Europe/Paris:20220407T103000
+CREATED:20220324T165559Z
+END:VEVENT
+END:VCALENDAR
