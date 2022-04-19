@@ -6,7 +6,7 @@ order: 3
 
 <!-- ## Upcoming Seminar Presentations -->
 
-* **Thursday, April 7th, 2022 at 10:30 AM UTC+2** [[Link to join](https://inria.webex.com/inria-en/j.php?MTID=m6744fb0489e22385e1538c4fef104f61)][[Add to Calendar](/files/GNCD.ics)]
+* **Thursday, April 21st, 2022 at 10:30 AM UTC+2** [[Link to join](https://inria.webex.com/inria-en/j.php?MTID=mb4b39fd736466602f3508c090aeb9180)][[Add to Calendar](/files/GNCDR.ics)]
   - **Title**: Generative Neural Networks for Observational Causal Discovery
   - **Speaker**: [Diviyan Kalainathan](https://diviyan-kalainathan.github.io/)
   - **Abstract**: Causal discovery is of utmost importance for agents who must plan, reason and decide based on observations; where mistaking correlation with causation might lead to unwanted consequences. The gold standard to discover causal relations is to perform experiments. However, experiments are in many cases expensive, unethical, or impossible to realize. In these situations, there is a need for observational causal discovery, that is, the estimation of causal relations from observations alone.
@@ -16,6 +16,10 @@ order: 3
     * Kalainathan, D., Goudet, O., & Dutta, R. (2020). [Causal Discovery Toolbox: Uncovering causal relationships in Python](https://jmlr.org/papers/v21/19-187.html). J. Mach. Learn. Res., 21, 37-1.
     * Goudet, Olivier, Diviyan Kalainathan, Philippe Caillou, Isabelle Guyon, David Lopez-Paz, and Michèle Sebag (2017). [Causal generative neural networks](https://arxiv.org/abs/1711.08936). arXiv:1711.08936
  * **Bio**: [Diviyan Kalainathan](https://diviyan-kalainathan.github.io/) is a Data Scientist at Fentech. He received a PhD degree in Computer Science from the Université Paris-Saclay in 2019 under the direction of Isabelle Guyon, Michèle Sebag, and Philippe Caillou. His works mainly focus on causal discovery of observational data and neural networks for social sciences in the directed graph setting. His interests also include generative models and reinforcement learning.
+
  * **Online**
-   - **Meeting number (access code)**: 2740 064 0615
-   - **Password**: hVwCriMD967
+   - **Join Webex Meeting**: [here](https://inria.webex.com/inria-en/j.php?MTID=mb4b39fd736466602f3508c090aeb9180)
+   - **Meeting number (access code)**: 2741 451 6489
+   - **Password**: bJSYH3Pnu92
+ * **Physically** 
+   - Room 2011 at LISN Campus Universitaire Bât. 660 Claude Shannon - Rue René Thom, 91190 Gif-sur-Yvette.

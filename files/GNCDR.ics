@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+X-WR-TIMEZONE:Europe/Paris
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+DTSTART:19810329T020000
+TZNAME:GMT+2
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+DTSTART:19961027T030000
+TZNAME:GMT+1
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Paris:20220421T120000
+UID:4C9CE678-F605-45AB-8390-F3DC105AF646
+DTSTAMP:20220419T215207Z
+LOCATION:https://inria.webex.com/inria-en/j.php?MTID=mb4b39fd736466602f3
+ 508c090aeb9180
+DESCRIPTION:The Uncertainty Quantification for Causal Learning working g
+ roup is excited to announce that this Thursday\, April 21st\, Diviyan Ka
+ lainathan from Fentech will further discuss his work "Generative Neural 
+ Networks for Observational Causal Discovery" in our reading session.  \n
+  \nThe reading sessions aim to enable everyone to discuss theorems\, pro
+ ofs\, and experiments of the work that are usually quickly presented in 
+ a seminar session. It also represents an opportunity for attendees to ha
+ ve a deep view of the work\, as well as a favorable time to ask more cla
+ rification questions\, discuss with the authors\, and envision future wo
+ rks. \n \nThe meeting will be on Thursday\, April 21st starting at 10:30
+  AM UTC+2.  \n\nYou can join the meeting online via Webex here (meeting 
+ number: 2741 451 6489\, password: bJSYH3Pnu92) or physically in the room
+  2011 at LISN Campus Universitaire Bât. 660 Claude Shannon - Rue René Th
+ om\, 91190 Gif-sur-Yvette.
+URL;VALUE=URI:https://causaltau.github.io
+SEQUENCE:1
+SUMMARY:Reading session of Generative Neural Networks for Observational 
+ Causal Discovery by Diviyan Kalainathan (Fentech)
+LAST-MODIFIED:20220419T215207Z
+DTSTART;TZID=Europe/Paris:20220421T103000
+CREATED:20220419T214909Z
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+END:VCALENDAR
