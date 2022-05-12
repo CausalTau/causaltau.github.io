@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+X-WR-TIMEZONE:Europe/Paris
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+DTSTART:19810329T020000
+TZNAME:GMT+2
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+DTSTART:19961027T030000
+TZNAME:GMT+1
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Paris:20220519T120000
+UID:F62FDFDA-3D51-468A-B2F7-5E1727AB6675
+DTSTAMP:20220512T173608Z
+LOCATION:https://inria.webex.com/inria-en/j.php?MTID=m6ff0d0a29de98d2483
+ 75ccaffe11cf78
+DESCRIPTION:Title: Beware of the Simulated DAG! Causal Discovery Benchma
+ rks May Be Easy to Game by Alexander Reisach\nSpeaker: Alexander Reisach
+  (Centrale Supelec)\nAbstract: Simulated DAG models may exhibit properti
+ es that\, perhaps inadvertently\, render their structure identifiable an
+ d unexpectedly affect structure learning algorithms. Here\, we show that
+  marginal variance tends to increase along the causal order for generica
+ lly sampled additive noise models. We introduce varsortability as a meas
+ ure of the agreement between the order of increasing marginal variance a
+ nd the causal order. For commonly sampled graphs and model parameters\, 
+ we show that the remarkable performance of some continuous structure lea
+ rning algorithms can be explained by high varsortability and matched by 
+ a simple baseline method. Yet\, this performance may not transfer to rea
+ l-world data where varsortability may be moderate or dependent on the ch
+ oice of measurement scales. On standardized data\, the same algorithms f
+ ail to identify the ground-truth DAG or its Markov equivalence class. Wh
+ ile standardization removes the pattern in marginal variance\, we show t
+ hat data generating processes that incur high varsortability also leave 
+ a distinct covariance pattern that may be exploited even after standardi
+ zation. Our findings challenge the significance of generic benchmarks wi
+ th independently drawn parameters.\n\nOnline\n   - Join Webex Meeting: h
+ ttps://inria.webex.com/inria-en/j.php?MTID=m6ff0d0a29de98d248375ccaffe11
+ cf78\n  - Meeting number (access code): 2744 275 1097\n  - Password: ePy
+ gZXa2P37\n\nPhysically\n   - Room 2011 at LISN Campus Universitaire Bât.
+  660 Claude Shannon - Rue René Thom\, 91190 Gif-sur-Yvette.
+URL;VALUE=URI:https://causaltau.github.io/schedule/
+SEQUENCE:1
+SUMMARY:Beware of the Simulated DAG! Causal Discovery Benchmarks May Be 
+ Easy to Game by Alexander Reisach (Centrale Supelec)
+LAST-MODIFIED:20220512T174058Z
+DTSTART;TZID=Europe/Paris:20220519T103000
+CREATED:20220512T173244Z
+END:VEVENT
+END:VCALENDAR

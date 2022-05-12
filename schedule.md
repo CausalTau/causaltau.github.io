@@ -6,20 +6,17 @@ order: 3
 
 <!-- ## Upcoming Seminar Presentations -->
 
-* **Thursday, April 21st, 2022 at 10:30 AM UTC+2** [[Link to join](https://inria.webex.com/inria-en/j.php?MTID=mb4b39fd736466602f3508c090aeb9180)][[Add to Calendar](/files/GNCDR.ics)]
-  - **Title**: Generative Neural Networks for Observational Causal Discovery
-  - **Speaker**: [Diviyan Kalainathan](https://diviyan-kalainathan.github.io/)
-  - **Abstract**: Causal discovery is of utmost importance for agents who must plan, reason and decide based on observations; where mistaking correlation with causation might lead to unwanted consequences. The gold standard to discover causal relations is to perform experiments. However, experiments are in many cases expensive, unethical, or impossible to realize. In these situations, there is a need for observational causal discovery, that is, the estimation of causal relations from observations alone.
-  We will go through the traditional methods to find causal relationships in observational data: conditional independence, Occam's razor., among others. Causal discovery in the observational data setting traditionally involves making significant assumptions on the data and on the underlying causal model. This work aims to alleviate some assumptions made on the causal models by exploiting the modularity and expressiveness of neural networks for causal discovery, leveraging both conditional independencies and simplicity of the causal mechanisms.
+* **Thursday, May 19th, 2022 at 10:30 AM UTC+1** [[Link to join](hhttps://inria.webex.com/inria-en/j.php?MTID=m6ff0d0a29de98d248375ccaffe11cf78)][[Add to Calendar](/files/BewareDAG.ics)]
+  - **Title**: Beware of the Simulated DAG! Causal Discovery Benchmarks May Be Easy to Game
+  - **Speaker**: [Alexander Reisach](https://linkedin.com/in/alexander-reisach-2033a9175)
+  - **Abstract**: Simulated DAG models may exhibit properties that, perhaps inadvertently, render their structure identifiable and unexpectedly affect structure learning algorithms. Here, we show that marginal variance tends to increase along the causal order for generically sampled additive noise models. We introduce varsortability as a measure of the agreement between the order of increasing marginal variance and the causal order. For commonly sampled graphs and model parameters, we show that the remarkable performance of some continuous structure learning algorithms can be explained by high varsortability and matched by a simple baseline method. Yet, this performance may not transfer to real-world data where varsortability may be moderate or dependent on the choice of measurement scales. On standardized data, the same algorithms fail to identify the ground-truth DAG or its Markov equivalence class. While standardization removes the pattern in marginal variance, we show that data generating processes that incur high varsortability also leave a distinct covariance pattern that may be exploited even after standardization. Our findings challenge the significance of generic benchmarks with independently drawn parameters.
   - **References**
-    * Patrik O. Hoyer, Dominik Janzing, Joris M. Mooij, Jonas Peters, and Bernhard Schölkopf. [Nonlinear causal discovery with additive noise models](https://papers.nips.cc/paper/2008/hash/f7664060cc52bc6f3d620bcedc94a4b6-Abstract.html). In Neural Information Processing Systems (NIPS), pages 689–696, 2009.
-    * Kalainathan, D., Goudet, O., & Dutta, R. (2020). [Causal Discovery Toolbox: Uncovering causal relationships in Python](https://jmlr.org/papers/v21/19-187.html). J. Mach. Learn. Res., 21, 37-1.
-    * Goudet, Olivier, Diviyan Kalainathan, Philippe Caillou, Isabelle Guyon, David Lopez-Paz, and Michèle Sebag (2017). [Causal generative neural networks](https://arxiv.org/abs/1711.08936). arXiv:1711.08936
- * **Bio**: [Diviyan Kalainathan](https://diviyan-kalainathan.github.io/) is a Data Scientist at Fentech. He received a PhD degree in Computer Science from the Université Paris-Saclay in 2019 under the direction of Isabelle Guyon, Michèle Sebag, and Philippe Caillou. His works mainly focus on causal discovery of observational data and neural networks for social sciences in the directed graph setting. His interests also include generative models and reinforcement learning.
+    * Reisach, Alexander, Christof Seiler, and Sebastian Weichwald. [Beware of the Simulated DAG! Causal Discovery Benchmarks May Be Easy to Game](https://proceedings.neurips.cc/paper/2021/file/e987eff4a7c7b7e580d659feb6f60c1a-Paper.pdf). In Advances in Neural Information Processing Systems, 34:27772–84. 2021.
+  * **Bio**: [Alexander Reisach](https://linkedin.com/in/alexander-reisach-2033a9175) is a Research Engineer at CentraleSupelec. His work focuses broadly on causal inference, including causal structure learning from interventions and machine learning.
 
- * **Online**
-   - **Join Webex Meeting**: [here](https://inria.webex.com/inria-en/j.php?MTID=mb4b39fd736466602f3508c090aeb9180)
-   - **Meeting number (access code)**: 2741 451 6489
-   - **Password**: bJSYH3Pnu92
- * **Physically** 
-   - Room 2011 at LISN Campus Universitaire Bât. 660 Claude Shannon - Rue René Thom, 91190 Gif-sur-Yvette.
+  * **Online**
+    - **Join Webex Meeting**: [here](https://inria.webex.com/inria-en/j.php?MTID=m6ff0d0a29de98d248375ccaffe11cf78)
+    - **Meeting number (access code)**: 2744 275 1097
+    - **Password**: ePygZXa2P37
+  * **Physically**
+    - Room 2011 at LISN Campus Universitaire Bât. 660 Claude Shannon - Rue René Thom, 91190 Gif-sur-Yvette.
