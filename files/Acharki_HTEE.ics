@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+X-WR-CALNAME:UQ4CL
+PRODID:-//Apple Inc.//macOS 12.4//EN
+X-APPLE-CALENDAR-COLOR:#711A76
+X-WR-TIMEZONE:Europe/Paris
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+DTSTART:19810329T020000
+TZNAME:GMT+2
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+DTSTART:19961027T030000
+TZNAME:GMT+1
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Paris:20220623T120000
+UID:7B79C764-7C74-44AC-BD37-01A84BD9F572
+DTSTAMP:20220617T112039Z
+LOCATION:https://inria.webex.com/inria-en/j.php?MTID=m60e3be9ccca7292f7f
+ 25e41476c3c6b2
+DESCRIPTION:Speaker: Naoufal Acharki (École Polytechnique and TotalEnerg
+ ies)\nAbstract: In many scientific and engineering domains\, inferring t
+ he effect of treatment and exploring its heterogeneity is crucial for op
+ timization and decision making. In addition to Machine Learning based mo
+ dels (e.g. Random Forests or Neural Networks)\, many meta-algorithms hav
+ e been developed to estimate the Conditional Average Treatment Effect (C
+ ATE) function in the binary setting\, with the main advantage of not res
+ training the estimation to a specific supervised learning method. Howeve
+ r\, this task becomes more challenging when the treatment is not binary.
+  In this paper\, we investigate the Rubin Causal Model under the multipl
+ e treatment regime and we focus on estimating heterogeneous treatment ef
+ fects. We generalize Meta-learning algorithms to estimate the CATE for e
+ ach possible treatment value. Using synthetic and semi-synthetic simulat
+ ion datasets\, we assess the quality of each meta-learner in observation
+ al data\, and we highlight in particular the performances of the X-learn
+ er.\n\nBio: Naoufal Acharki is a 3rd year Ph.D. candidate in statistics 
+ and machine learning at École Polytechnique (CMAP) and TotalEnergies. Hi
+ s academic and industrial supervisors are Josselin Garnier and Antoine B
+ ertoncello. His work focuses broadly on causal inference and statistical
+  learning\, including causal learning for optimization and decision-maki
+ ng in uncertainty environment settings.\n\nJoin us online or physically\
+ , room 2011 at LISN Campus Universitaire Bâtiment 660 Claude Shannon - R
+ ue René Thom\, 91190 Gif-sur-Yvette.
+URL;VALUE=URI:https://causaltau.github.io/schedule
+SEQUENCE:1
+SUMMARY:Heterogeneous Treatment Effects Estimation: When Machine Learnin
+ g meets multiple treatments regime by Naoufal Acharki (École Polytechniq
+ ue and TotalEnergies)
+LAST-MODIFIED:20220617T112145Z
+DTSTART;TZID=Europe/Paris:20220623T103000
+CREATED:20220617T112039Z
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+END:VCALENDAR
