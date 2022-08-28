@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+X-WR-CALNAME:UQ4CL
+PRODID:-//Apple Inc.//macOS 12.4//EN
+X-APPLE-CALENDAR-COLOR:#711A76
+X-WR-TIMEZONE:Europe/Paris
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+DTSTART:19810329T020000
+TZNAME:GMT+2
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+DTSTART:19961027T030000
+TZNAME:GMT+1
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Paris:20220901T120000
+UID:6EEEF912-E29D-4A91-8029-8B8DB559159E
+DTSTAMP:20220828T192713Z
+LOCATION:LISN Campus Universitaire Bâtiment 660 Claude Shannon - Rue Ren
+ é Thom\, 91190 Gif-sur-Yvette
+DESCRIPTION:Title: Definition and estimation of a variable importance me
+ asure of a continuous exposure\nSpeaker: Antoine Chambaz (Université Par
+ is Cité)\nAbstract: In [1\,2] we defined a new measure of variable impor
+ tance of an exposure on a continuous outcome\, accounting for potential 
+ confounders\, when the exposure features a reference level x0 with posit
+ ive mass and a continuum of other levels. We also showed how to build as
+ ymptotic confidence intervals for it\, using the semi-parametric estimat
+ ion methodology called targeted minimum loss estimation methodology (TML
+ E) [3\,4\,5]. In the application\, which motivated the study\, the expos
+ ure and response are\, respectively\, the DNA copy number and expression
+  level of a given gene in a cancer cell. The reference level is x0=2\, t
+ hat is the expected DNA copy number in a normal cell. As for the confoun
+ der\, it is a measure of the methylation of the gene.\n  This two-part t
+ alk will present and discuss the theoretical\, computational and applied
+  facets of the study.\n\nReferences: \n  \n[1] Chambaz\, Neuvial and van
+  der Laan\, Estimation of a non-parametric variable importance measure o
+ f a continuous exposure\, Electron.  J. Stat.\, 6:1059-1099 (2012). URL:
+  https://projecteuclid.org/journals/electronic-journal-of-statistics/vol
+ ume-6/issue-none/Estimation-of-a-non-parametric-variable-importance-meas
+ ure-of-a/10.1214/12-EJS703.full\n[2] Chambaz and Neuvial\, tmle.npvi: ta
+ rgeted\, integrative search of associations between DNA copy number and 
+ gene expression\, accounting for DNA methylation\, Bioinformatics\, 31(1
+ 8):3054-3056 (2015). URL: https://academic.oup.com/bioinformatics/articl
+ e/31/18/3054/241218\n[3] van der Laan and Rubin\, Targeted maximum likel
+ ihood learning\, Int. J. Biostat.\, 2:Article 11 (2006). URL: https://bi
+ ostats.bepress.com/ucbbiostat/paper213/\n[4] van der Laan and Rose\, [Ta
+ rgeted Learning: Causal Inference for Observational and Experimental Dat
+ a]\, Springer Verlag (2011). URL: https://link.springer.com/book/10.1007
+ /978-1-4419-9782-1\n[5] van der Laan and Rose\, Targeted Learning in Dat
+ a Science: Causal Inference for Complex Longitudinal Studies\, Springer 
+ Verlag (2018). URL: https://link.springer.com/book/10.1007/978-3-319-653
+ 04-4\n\nBio: Antoine Chambaz is a Professor at Université Paris Cité\, m
+ ember of the applied mathematics laboratory (MAP5). He is the head of th
+ e Statistics group since June 2018\, and the director of the FP2M resear
+ ch federation. From 2012 to 2017\, he was a member of Modal'X\, the stoc
+ hastic modeling laboratory of Paris Nanterre University. He chaired Moda
+ l'X from February 2014 to October 2017. His main research interest is in
+  theoretical\, computational and applied statistics.\n\nJoin us online o
+ r physically\, room 2011 at LISN Campus Universitaire Bâtiment 660 Claud
+ e Shannon - Rue René Thom\, 91190 Gif-sur-Yvette.\n\n\n----( Video Call 
+ )----\nhttps://inria.webex.com/inria-en/j.php?MTID=m0164fd4a29396616fcfc
+ 1c9f4c07f5ab\n---===---
+URL;VALUE=URI:https://causaltau.github.io/schedule/
+SEQUENCE:1
+SUMMARY:Definition and estimation of a variable importance measure of a 
+ continuous exposure
+LAST-MODIFIED:20220828T215641Z
+DTSTART;TZID=Europe/Paris:20220901T103000
+CREATED:20220828T192050Z
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+END:VCALENDAR
