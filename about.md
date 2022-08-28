@@ -30,6 +30,7 @@ Please subscribe to our mailing list [here](https://sympa.inria.fr/sympa/subscri
 * [Marianne Clausel][clausel]
 * [Alessandro Leite][leite]
 * [Georges Oppenheim][oppenheim]
+* [Audrey Poinsot][poinsot]
 * [Michèle Sébag][sebag]
 
 
