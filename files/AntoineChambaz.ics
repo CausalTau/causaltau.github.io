@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+X-WR-CALNAME:causal-tau
+PRODID:-//Apple Inc.//macOS 12.4//EN
+X-APPLE-CALENDAR-COLOR:#711A76
+X-WR-TIMEZONE:Europe/Paris
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+DTSTART:19810329T020000
+TZNAME:GMT+2
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+DTSTART:19961027T030000
+TZNAME:GMT+1
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Paris:20220922T120000
+UID:03A64A84-647D-4A1C-B0B2-5445A49D4009
+DTSTAMP:20220912T192910Z
+LOCATION:LISN Campus Universitaire Bâtiment 660 Claude Shannon - Rue Ren
+ é Thom\, 91190 Gif-sur-Yvette
+DESCRIPTION:Title: Definition and estimation of a variable importance me
+ asure of a continuous exposure\nSpeaker: Antoine Chambaz (Université Par
+ is Cité)\nAbstract:  In [1\,2] we defined a new measure of variable impo
+ rtance of an exposure on a continuous outcome\, accounting for potential
+  confounders\, when the exposure features a reference level x0 with posi
+ tive mass and a continuum of other levels. We also showed how to build a
+ symptotic confidence intervals for it\, using the semi-parametric estima
+ tion methodology called targeted minimum loss estimation methodology (TM
+ LE) [3\,4\,5]. In the application\, which motivated the study\, the expo
+ sure and response are\, respectively\, the DNA copy number and expressio
+ n level of a given gene in a cancer cell. The reference level is $$x_0=2
+ $$\, that is the expected DNA copy number in a normal cell. As for the c
+ onfounder\, it is a measure of the methylation of the gene.\n \nThis two
+ -part talk will present and discuss the theoretical\, computational and 
+ applied facets of the study.\n\nBio: Antoine Chambaz is a Professor at U
+ niversité Paris Cité\, member of the applied mathematics laboratory (MAP
+ 5). He is the head of the Statistics group since June 2018\, and the dir
+ ector of the FP2M research federation. From 2012 to 2017\, he was a memb
+ er of Modal’X\, the stochastic modeling laboratory of Paris Nanterre Uni
+ versity. He chaired Modal’X from February 2014 to October 2017. His main
+  research interest is in theoretical\, computational and applied statist
+ ics.\n\nOnline\n  - Join Webex Meeting: https://inria.webex.com/inria-en
+ /j.php?MTID=m531414ac92193ea1c916a52f1dbc04b1\n  - Meeting number (acces
+ s code): 2741 068 2978\n  - Password: rJUJTsf4r68\n\nPhysically\n  - Roo
+ m 2011 at LISN Campus Universitaire Bâtiment 660 Claude Shannon - Rue Re
+ né Thom\, 91190 Gif-sur-Yvette.
+URL;VALUE=URI:https://causaltau.github.io/schedule
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Definition and estimation of a variable importance measure of a 
+ continuous exposure by Antoine Chambaz (Université Paris Cité)
+LAST-MODIFIED:20220912T192959Z
+DTSTART;TZID=Europe/Paris:20220922T103000
+CREATED:20220912T192347Z
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+X-WR-ALARMUID:3317FCCB-00A9-4EDA-9D5C-97082CC163E2
+UID:3317FCCB-00A9-4EDA-9D5C-97082CC163E2
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20220901T080029Z
+TRIGGER:-PT30M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
