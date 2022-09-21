@@ -7,7 +7,7 @@ order: 3
 <!-- ## Upcoming Seminar Presentations -->
 
 * **Thursday, September 22st, 2022 at 10:30 AM Paris Time (GMT+2)** [[Link to join](https://inria.webex.com/inria-en/j.php?MTID=m531414ac92193ea1c916a52f1dbc04b1)][[Add to Calendar](/files/AntoineChambaz.ics)]
-  - **Title**: Definition and estimation of a variable importance measure of a continuous exposure
+  - **Title**: Definition and estimation of a variable importance measure of a continuous exposure (2nd session) [[Recording of the first session]](https://drive.google.com/file/d/1ZumH45Y9bTHl325aZseC9kLOoMvuWwNh/view)
   - **Speaker**: [Antoine Chambaz](https://helios2.mi.parisdescartes.fr/~chambaz/index.php?choix=1) (Université Paris Cité)
   - **Abstract**: In [1,2] we defined a new measure of variable importance of an exposure on a continuous outcome, accounting for potential confounders, when the exposure features a reference level x0 with positive mass and a continuum of other levels. We also showed how to build asymptotic confidence intervals for it, using the semi-parametric estimation methodology called targeted minimum loss estimation methodology (TMLE) [3,4,5]. In the application, which motivated the study, the exposure and response are, respectively, the DNA copy number and expression level of a given gene in a cancer cell. The reference level is $$x_0=2$$, that is the expected DNA copy number in a normal cell. As for the confounder, it is a measure of the methylation of the gene.
   This two-part talk will present and discuss the theoretical, computational and applied facets of the study.
