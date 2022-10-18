@@ -1,0 +1,75 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+X-WR-CALNAME:UQ4CL
+PRODID:-//Apple Inc.//macOS 12.6//EN
+X-APPLE-CALENDAR-COLOR:#711A76
+X-WR-TIMEZONE:Europe/Paris
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+DTSTART:19810329T020000
+TZNAME:GMT+2
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+DTSTART:19961027T030000
+TZNAME:GMT+1
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Paris:20221027T120000
+UID:3E651615-E62D-4FD3-B0D5-26EDE88EA80E
+DTSTAMP:20220912T194549Z
+LOCATION:Campus Universitaire Bâtiment 660 Claude Shannon - Rue René Tho
+ m\, 91190 Gif-sur-Yvette
+DESCRIPTION:Title: Combining randomized and observational data: Toward n
+ ew clinical evidence?\nAbstract: The limited scope of Randomized Control
+ led Trials (RCT) is increasingly under scrutiny\, in particular when sam
+ ples are unrepresentative. Indeed\, some RCTs over- or under- sample ind
+ ividuals with certain characteristics compared to the target population\
+ , for which one want to draw conclusions on treatment effectiveness. Ove
+ r the last decades\, several methods have been proposed to account for t
+ his sampling bias\, relying on the RCT data\, and an external data set r
+ epresentative of the target population of interest. We will review the d
+ ifferent methods available and the current state-of-the-art. One of the 
+ method consists in re-weighting the trial individuals to match the targe
+ t population\, which is usually called Inverse Propensity of Sampling We
+ ighting (IPSW). Such procedures require an estimation of the ratio of tw
+ o densities (trial and target distributions). In this presentation\, we 
+ establish the exact expressions of the bias and variance of such reweigh
+ ting procedures  in presence of categorical covariates for any sample si
+ ze. These results show how the performance (bias\, variance and quadrati
+ c risk) of IPSW estimates depends on the two sample sizes (RCT and targe
+ t population). In addition\, we study how including covariates that are 
+ unnecessary to a proper estimation of the weights may impact the asympto
+ tic variance\, for the best or the worse. We illustrate all the takeaway
+ s twice: in a toy and didactic example\, and on a semi-synthetic simulat
+ ion inspired from critical care medicine.\n\nBio: Bénédicte Colnet is a 
+ Ph.D. candidate under the supervision of Julie Josse\, Erwan Scornet\, a
+ nd Gaël Varoquaux at Inria. She graduated from École Polytechnique and o
+ btained a master degree in Bioinformatics from Sorbonne University. Her 
+ research works comprise in trying to understand how to get the most of b
+ oth experimental and observational data with a specific focus on health-
+ related topics.\n\n\nOnline\n  - Join Webex Meeting: https://inria.webex
+ .com/inria-en/j.php?MTID=m7f5e85f7fd2809229d527cc2892bde3c\n  - Meeting 
+ number (access code): 2747 508 2671\n  - Password: KVjZWR4PT26\n\nPhysic
+ ally\n  - Room 2014 at LISN Campus Universitaire Bâtiment 660 Claude Sha
+ nnon - Rue René Thom\, 91190 Gif-sur-Yvette.
+URL;VALUE=URI:https://causaltau.github.io/schedule
+SEQUENCE:1
+SUMMARY:Combining randomized and observational data: Toward new clinical
+  evidence? by Bénédicte Colnet (Inria)
+LAST-MODIFIED:20221018T192243Z
+DTSTART;TZID=Europe/Paris:20221027T103000
+CREATED:20220912T194423Z
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+END:VCALENDAR
