@@ -5,22 +5,33 @@ order: 3
 ---
 
 <!-- ## Upcoming Seminar Presentations -->
-* **Thursday, October 27rd, 2022 at 10:30 AM Paris Time (GMT+2)** [[Link to join](https://inria.webex.com/inria-en/j.php?MTID=m7f5e85f7fd2809229d527cc2892bde3c)][[Add to Calendar](/files/Colnet2.ics)][[Slides]](/files/slides/Colnet_2022_10_13.pdf)[[1st session]](https://drive.google.com/file/d/11Lh8ndJ-K7SCB-QJb9812vOwkwY4UfhJ/view)
-  - **Title**: Combining randomized and observational data: Toward new clinical evidence?
-  - **Speaker**: [Bénédicte Colnet](https://benedictecolnet.github.io) (Inria)
-  - **Abstract**: The limited scope of Randomized Controlled Trials (RCT) is increasingly under scrutiny, in particular when samples are unrepresentative. Indeed, some RCTs over- or under-sample individuals with certain characteristics compared to the target population, for which one want to draw conclusions on treatment effectiveness. Over the last decades, several methods have been proposed to account for this sampling bias, relying on the RCT data, and an external data set representative of the target population of interest. We will review the different methods available and the current state-of-the-art. One of the method consists in re-weighting the trial individuals to match the target population, which is usually called Inverse Propensity of Sampling Weighting (IPSW). Such procedures require an estimation of the ratio of two densities (trial and target distributions). In this presentation, we establish the exact expressions of the bias and variance of such reweighting procedures in presence of categorical covariates for any sample size. These results show how the performance (bias, variance and quadratic risk) of IPSW estimates depends on the two sample sizes (RCT and target population). In addition, we study how including covariates that are unnecessary to a proper estimation of the weights may impact the asymptotic variance, for the best or the worse. We illustrate all the takeaways twice: in a toy and didactic example, and on a semi-synthetic simulation inspired from critical care medicine.
 
-  - **Reference**: 
-    * Colnet, Bénédicte, Julie Josse, Gaël Varoquaux, and Erwan Scornet. [“Reweighting the RCT for Generalization: Finite Sample Analysis and Variable Selection.”](https://arxiv.org/abs/2208.07614) arXiv:2208.07614, 2022.
 
-  - **Bio**: [Bénédicte Colnet](https://benedictecolnet.github.io) is a Ph.D. candidate under the supervision of [Julie Josse](http://juliejosse.com/), [Erwan Scornet](https://erwanscornet.github.io/), and [Gaël Varoquaux](http://gael-varoquaux.info/) at Inria. She graduated from École Polytechnique and obtained a master degree in Bioinformatics from Sorbonne University. Her research works comprise in trying to understand how to get the most of both experimental and observational data with a specific focus on health-related topics.
 
+
+* **Thursday, January 12th, 2023 at 10:30 AM Paris Time (GMT+2)** [[Link to join](https://inria.webex.com/inria-en/j.php?MTID=md24d69e954143fce9523fff3a141f487)][[Add to Calendar](/files/RibeiroDantas.ics)]
+  - **Title**: Learning interpretable causal networks from observational data
+  - **Speaker**: [Marcel Ribeiro-Dantas](http://mribeirodantas.me) (Seqera Labs)
+  - **Abstract**: Uncovering cause-effect relationships in non-experimental settings has shown to be a very complex endeavour, given the numerous limitations and biases found in observational data. At the same time, there are many situations in which experiments cannot be performed, be it due to technical, financial or ethical reasons, and large amounts of observational data are available. Recent progress in causal discovery methodologies, and in the causal inference literature in general, has contributed to the development of techniques that learn the underlying causal structure of the events recorded through observational data, allowing us to perform causal discovery and inference in observational data. In this talk, I will go through iMIIC, a novel information-theoretic method that allows us to infer interpretable causal networks, and its application to a dataset of ~400,000 breast cancer patients.
+
+  - **Bio**: [Marcel Ribeiro-Dantas](http://mribeirodantas.me) is a developer advocate at Seqera Labs. He holds a PhD in Bioinformatics from Sorbonne Université and Institut Curie developing causal discovery methods and investigating their application to breast cancer patients' data. He also holds two graduate degrees on Big Data and Health Informatics and an MSc in Computer Science  from Federal University of Rio Grande do Norte (UFRN) in Brazil, where he worked on gene regulatory networks and data visualization with data from cancer patients.
+  
   * **Online**
-    - **Join Webex Meeting**: [here](https://inria.webex.com/inria-en/j.php?MTID=m7f5e85f7fd2809229d527cc2892bde3c)
-    - **Meeting number (access code)**: 2747 508 2671
-    - **Password**: KVjZWR4PT26
-  * **Physically**
-    - **Room 2014** at LISN Campus Universitaire Bâtiment 660 Claude Shannon - Rue René Thom, 91190 Gif-sur-Yvette.
+    - **Join Webex Meeting**: [here](https://inria.webex.com/inria-en/j.php?MTID=md24d69e954143fce9523fff3a141f487)
+    - **Meeting number (access code)**: 2740 576 4404
+    - **Password**: fVtguVAM354
 
-  <!-- * **Document**
-    - [Invitation](/files/causal_tau_seminar_benedicte_colnet.pdf) -->
+
+* **Thursday, February 2nd, 2023 at 10:30 AM Paris Time (GMT+2)** [[Link to join](https://inria.webex.com/inria-en/j.php?MTID=mb0a1b91531f6bab0d3a8d4c470cf0e6d)][[Add to Calendar](/files/Zhioua.ics)]
+  - **Title**: Causality for ML Fairness
+  - **Speaker**: [Sami Zhioua](http://www.lix.polytechnique.fr/Labo/Sami.ZHIOUA/) (INRIA, LIX, École Polytechnique)
+  - **Abstract**: Addressing the problem of fairness is crucial to safely use machine learning algorithms to support decisions with a critical impact on people's lives such as job hiring, child maltreatment, disease diagnosis, loan granting, etc. Several notions of fairness have been defined and examined in the past decade, such as statistical parity and equalized odds. The most recent fairness notions, however, are causal-based and reflect the now widely accepted idea that using causality is necessary to appropriately address the problem of fairness. This talk examines an exhaustive list of causal-based fairness notions and study their applicability in real-world scenarios. As the majority of causal-based fairness notions are defined in terms of non-observable quantities (e.g., interventions and counterfactuals), their deployment in practice requires to compute or estimate those quantities using observational data. This talk discusses also different approaches to infer causal quantities from observational data including identifiability (Pearl's SCM framework) and estimation (matching, regression, stratification, etc.).
+  - **Bio**: [Sami Zhioua](http://www.lix.polytechnique.fr/Labo/Sami.ZHIOUA/) is an advanced researcher at INRIA and LIX research group at École Polytechnique. His research interests include fairness and privacy in machine learning and AI in general. Previously, he worked on privacy enhancing technologies, reinforcement learning, and security and optimization of the Java virtual machine.
+  
+  * **Online**
+    - **Join Webex Meeting**: [here](https://inria.webex.com/inria-en/j.php?MTID=mb0a1b91531f6bab0d3a8d4c470cf0e6d)
+    - **Meeting number (access code)**: 2744 685 7271
+    - **Password**: 9pyS6RU4pQM
+  * **Physically**
+    - Room 2014 at LISN Campus Universitaire Bâtiment 660 Claude Shannon - Rue René Thom, 91190 Gif-sur-Yvette.
+  

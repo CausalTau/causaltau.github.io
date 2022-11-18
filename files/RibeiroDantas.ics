@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+PRODID:-//Apple Inc.//macOS 13.0//EN
+VERSION:2.0
+X-APPLE-CALENDAR-COLOR:#711A76
+X-WR-CALNAME:UQ4CL
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+DTSTART:19810329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZNAME:GMT+2
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19961027T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZNAME:GMT+1
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20221117T212631Z
+DESCRIPTION:Title: Learning interpretable causal networks from observati
+ onal data\nSpeaker: Marcel Ribeiro-Dantas (Seqera Labs)\nAbstract: Uncov
+ ering cause-effect relationships in non-experimental settings has shown 
+ to be a very complex endeavour\, given the numerous limitations and bias
+ es found in observational data. At the same time\, there are many situat
+ ions in which experiments cannot be performed\, be it due to technical\,
+  financial or ethical reasons\, and large amounts of observational data 
+ are available. Recent progress in causal discovery methodologies\, and i
+ n the causal inference literature in general\, has contributed to the de
+ velopment of techniques that learn the underlying causal structure of th
+ e events recorded through observational data\, allowing us to perform ca
+ usal discovery and inference in observational data. In this talk\, I wil
+ l go through iMIIC\, a novel information-theoretic method that allows us
+  to infer interpretable causal networks\, and its application to a datas
+ et of ~400\,000 breast cancer patients.\n\nShort bio: Marcel Ribeiro-Dan
+ tas is a developer advocate at Seqera Labs. He holds a PhD in Bioinforma
+ tics from Sorbonne Université and Institut Curie developing causal disco
+ very methods and investigating their application to breast cancer patien
+ ts' data. He also holds two graduate degrees on Big Data and Health Info
+ rmatics and a MSc from Federal University of Rio Grande do Norte (UFRN) 
+ in Brazil\, where he worked on gene regulatory networks and data visuali
+ zation with data from cancer patients.\n\n \nJoin from the meeting link\
+ nhttps://inria.webex.com/inria-en/j.php?MTID=md24d69e954143fce9523fff3a1
+ 41f487\n \nJoin by meeting number\nMeeting number (access code): 2740 57
+ 6 4404\nMeeting password: fVtguVAM354\n
+DTEND;TZID=Europe/Paris:20230112T120000
+DTSTAMP:20221117T212748Z
+DTSTART;TZID=Europe/Paris:20230112T103000
+LAST-MODIFIED:20221117T212631Z
+LOCATION:https://inria.webex.com/inria-en/j.php?MTID=md24d69e954143fce95
+ 23fff3a141f487
+SEQUENCE:0
+SUMMARY:Learning interpretable causal networks from observational data b
+ y Marcel Ribeiro-Dantas (Seqera Labs)
+TRANSP:OPAQUE
+UID:9D20F0E6-D96D-4E23-9245-F756B51A72DD
+URL;VALUE=URI:https://causaltau.github.io/schedule
+END:VEVENT
+END:VCALENDAR
