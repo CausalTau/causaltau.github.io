@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+PRODID:-//Apple Inc.//macOS 13.1//EN
+VERSION:2.0
+X-APPLE-CALENDAR-COLOR:#711A76
+X-WR-CALNAME:UQ4CL
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+DTSTART:19810329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZNAME:GMT+2
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19961027T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZNAME:GMT+1
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20230119T120441Z
+DESCRIPTION:Title: Causality for ML Fairness\nAbstract: Addressing the p
+ roblem of fairness is crucial to safely use machine learning algorithms 
+ to support decisions with a critical impact on people's lives such as jo
+ b hiring\, child maltreatment\, disease diagnosis\, loan granting\, etc.
+  Several notions of fairness have been defined and examined in the past 
+ decade\, such as statistical parity and equalized odds. The most recent 
+ fairness notions\, however\, are causal-based and reflect the now widely
+  accepted idea that using causality is necessary to appropriately addres
+ s the problem of fairness. This talk examines an exhaustive list of caus
+ al-based fairness notions and study their applicability in real-world sc
+ enarios. As the majority of causal-based fairness notions are defined in
+  terms of non-observable quantities (e.g.\, interventions and counterfac
+ tuals)\, their deployment in practice requires to compute or estimate th
+ ose quantities using observational data. This talk discusses also differ
+ ent approaches to infer causal quantities from observational data includ
+ ing identifiability (Pearl's SCM framework) and estimation (matching\, r
+ egression\, stratification\, etc.).\n\nShort Bio: Sami Zhioua is an adva
+ nced researcher at INRIA and LIX research group at École Polytechnique. 
+ His research interests include fairness and privacy in machine learning 
+ and AI in general. Previously\, he worked on privacy enhancing technolog
+ ies\, reinforcement learning\, and security and optimization of the Java
+  virtual machine.\n\n* Join Webex Meeting\nhttps://inria.webex.com/inria
+ -en/j.php?MTID=mb0a1b91531f6bab0d3a8d4c470cf0e6d\n \n* Meeting number (a
+ ccess code): 2744 685 7271\n* Password: 9pyS6RU4pQM\n\n*Physically\n\n- 
+ Room 2014 at LISN Campus Universitaire Bâtiment 660 Claude Shannon - Rue
+  René Thom\, 91190 Gif-sur-Yvette.\n  
+DTEND;TZID=Europe/Paris:20230309T120000
+DTSTAMP:20230119T120939Z
+DTSTART;TZID=Europe/Paris:20230309T103000
+LAST-MODIFIED:20230119T120913Z
+LOCATION:https://inria.webex.com/inria-en/j.php?MTID=mb0a1b91531f6bab0d3
+ a8d4c470cf0e6d
+SEQUENCE:1
+SUMMARY:Causality for ML Fairness by Sami Zhioua (INRIA\, LIX\, École Po
+ lytechnique)
+TRANSP:OPAQUE
+UID:C37191BA-46B1-4121-9F9A-A6613A582A9F
+URL;VALUE=URI:https://causaltau.github.io/schedule
+END:VEVENT
+END:VCALENDAR
